@@ -23,7 +23,7 @@ int main(void) {
     //create the threads
     std::thread t1(firstAction, "one");
     std::thread t2(firstAction, "two");
-    //join to the main resources
+    //join to the main
     t1.join();
     t2.join();
     return 0;
